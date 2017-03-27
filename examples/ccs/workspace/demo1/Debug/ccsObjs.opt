@@ -1,0 +1,1 @@
+-l"./configPkg/linker.cmd" "./mutex.obj" -l"libc.a" 

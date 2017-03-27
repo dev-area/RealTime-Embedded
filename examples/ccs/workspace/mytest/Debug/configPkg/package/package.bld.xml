@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="configPkg" version="" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/cfg/message_dsp_p674.c"/>
+    </sources>
+    <configurations>
+        <srcFile name="C:/Documents and Settings/Administrator/My Documents/workspace/mytest/message_dsp.cfg"/>
+    </configurations>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/cfg/message_dsp_p674.mak" src="package.bld"/>
+        <srcFile name="package/cfg/message_dsp_p674.o674.dep" src="package/cfg/message_dsp_p674.c"/>
+        <srcFile name="package/cfg/message_dsp_p674.dep" src="package/cfg/message_dsp_p674.cfg"/>
+        <srcFile name="package/rel/configPkg.tar.dep" src="package/rel/configPkg.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="ti.targets.C674"
+            version="ti.targets.C674{1,0,7.0,3"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="674"
+            rootDir="C:/PROGRA~1/TEXASI~1/ccsv4/tools/compiler/c6000"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    </libraries>
+    <executables>
+    <executable name="message_dsp"
+        pname="message_dsp.p674"
+        target="ti.targets.C674"
+        platform="ti.sdo.ipc.examples.platforms.evmOMAPL138.dsp"
+        profile="whole_program"
+        xCfgScript="package/cfg/message_dsp_p674.cfg"
+        xCfgPrefix="package/cfg/message_dsp_p674"
+        cfgScript="C:/Documents and Settings/Administrator/My Documents/workspace/mytest/message_dsp.cfg"
+        cfgArgs="null"
+        />
+    </executables>
+    <tests>
+    <test exeName="message_dsp.p674"
+        args=""
+        groupName="message_dsp.p674"
+        refOutput="undefined"
+        refExitCode="0"
+        execArgs=""
+        />
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="configPkg"
+        pname="configPkg.tar"
+        label="default"
+    >
+        <file name="package/build.cfg"/>
+        <file name="package/package.ext.xml"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="package/package.bld.xml"/>
+        <file name="package/package.rel.dot"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

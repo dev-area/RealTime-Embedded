@@ -1,0 +1,154 @@
+******************************************************************************
+                  TMS470 Linker PC v4.6.3                      
+******************************************************************************
+>> Linked Mon Dec 13 16:09:52 2010
+
+OUTPUT FILE NAME:   <Blink.out>
+ENTRY POINT SYMBOL: "_c_int00"  address: c0700500
+
+
+MEMORY CONFIGURATION
+
+         name            origin    length      used     unused   attr    fill
+----------------------  --------  ---------  --------  --------  ----  --------
+  P_MEM                 c0700000   00030000  0000060c  0002f9f4  RWIX
+  D_MEM                 c0730000   00050000  00008020  00047fe0  RWIX
+
+
+SECTION ALLOCATION MAP
+
+ output                                  attributes/
+section   page    origin      length       input sections
+--------  ----  ----------  ----------   ----------------
+.pinit     0    c0700000    00000000     UNINITIALIZED
+
+.text      0    c0700000    000005a8     
+                  c0700000    00000208     LED.obj (.text)
+                  c0700208    00000180     rtsv5_A_le_tiarm9.lib : memcpy32.obj (.text)
+                  c0700388    000000a8                           : auto_init.obj (.text)
+                  c0700430    00000078                           : exit.obj (.text)
+                  c07004a8    00000058                           : cpy_tbl.obj (.text)
+                  c0700500    00000044                           : boot.obj (.text)
+                  c0700544    00000024                           : _lock.obj (.text)
+                  c0700568    00000020                           : args_main.obj (.text)
+                  c0700588    00000020                           : icall32.obj (.text)
+
+.cinit     0    c07005a8    00000064     
+                  c07005a8    00000018     LED.obj (.cinit)
+                  c07005c0    00000018     rtsv5_A_le_tiarm9.lib : _lock.obj (.cinit)
+                  c07005d8    00000018                           : exit.obj (.cinit)
+                  c07005f0    0000000c                           : boot.obj (.cinit)
+                  c07005fc    0000000c                           : stkdepth_vars.obj (.cinit)
+                  c0700608    00000004     --HOLE-- [fill = 0]
+
+.stack     0    c0730000    00008000     UNINITIALIZED
+                  c0730000    00008000     --HOLE--
+
+.bss       0    c0738000    00000020     UNINITIALIZED
+                  c0738000    00000008     LED.obj (.bss)
+                  c0738008    00000008     rtsv5_A_le_tiarm9.lib : _lock.obj (.bss)
+                  c0738010    00000008                           : exit.obj (.bss)
+                  c0738018    00000004                           : boot.obj (.bss)
+                  c073801c    00000004                           : stkdepth_vars.obj (.bss)
+
+
+GLOBAL SYMBOLS: SORTED ALPHABETICALLY BY Name 
+
+address    name
+--------   ----
+c0738000   .bss
+c0700000   .text
+c0700430   C$$EXIT
+c0700208   C_MEMCPY
+c0700588   IND_CALL
+c0738000   _LED_DIR
+c0738004   _LED_OUT_DATA
+c0738000   __STACK_END
+00008000   __STACK_SIZE
+00000001   __TI_args_main
+c0700388   __TI_auto_init
+ffffffff   ___binit__
+c0738000   ___bss__
+ffffffff   ___c_args__
+c07005a8   ___cinit__
+c0738020   ___end__
+c07005a8   ___etext__
+ffffffff   ___pinit__
+c0700000   ___text__
+c0700568   __args_main
+c0738010   __cleanup_ptr
+c0738014   __dtors_ptr
+c0738008   __lock
+c070055c   __nop
+c0700550   __register_lock
+c0700544   __register_unlock
+c0730000   __stack
+c073800c   __unlock
+c0700438   _abort
+c0700064   _blink1
+c070012c   _blink2
+c0700500   _c_int00
+c0700028   _configure_gpio
+c07004a8   _copy_in
+c07001bc   _delay
+c0700444   _exit
+c0700000   _main
+c073801c   _main_func_sp
+c0738018   _stkchk_called
+ffffffff   binit
+c07005a8   cinit
+c0738020   end
+c07005a8   etext
+ffffffff   pinit
+
+
+GLOBAL SYMBOLS: SORTED BY Symbol Address 
+
+address    name
+--------   ----
+00000001   __TI_args_main
+00008000   __STACK_SIZE
+c0700000   .text
+c0700000   ___text__
+c0700000   _main
+c0700028   _configure_gpio
+c0700064   _blink1
+c070012c   _blink2
+c07001bc   _delay
+c0700208   C_MEMCPY
+c0700388   __TI_auto_init
+c0700430   C$$EXIT
+c0700438   _abort
+c0700444   _exit
+c07004a8   _copy_in
+c0700500   _c_int00
+c0700544   __register_unlock
+c0700550   __register_lock
+c070055c   __nop
+c0700568   __args_main
+c0700588   IND_CALL
+c07005a8   ___cinit__
+c07005a8   ___etext__
+c07005a8   cinit
+c07005a8   etext
+c0730000   __stack
+c0738000   .bss
+c0738000   _LED_DIR
+c0738000   __STACK_END
+c0738000   ___bss__
+c0738004   _LED_OUT_DATA
+c0738008   __lock
+c073800c   __unlock
+c0738010   __cleanup_ptr
+c0738014   __dtors_ptr
+c0738018   _stkchk_called
+c073801c   _main_func_sp
+c0738020   ___end__
+c0738020   end
+ffffffff   ___binit__
+ffffffff   ___c_args__
+ffffffff   ___pinit__
+ffffffff   binit
+ffffffff   pinit
+
+[44 symbols]

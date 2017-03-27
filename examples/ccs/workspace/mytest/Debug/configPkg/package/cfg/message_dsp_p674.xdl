@@ -1,0 +1,48 @@
+/*
+ * Do not modify this file; it is automatically generated from the template
+ * linkcmd.xdt in the ti.targets package and will be overwritten.
+ */
+
+/*
+ * put '"'s around paths because, without this, the linker
+ * considers '-' as minus operator, not a file name character.
+ */
+
+
+
+-l"C:\Program Files\Texas Instruments\ipc_1_21_02_23\packages\ti\sdo\ipc\transports\lib\whole_program_debug\ti.sdo.ipc.transports.a674"
+-l"C:\Program Files\Texas Instruments\ipc_1_21_02_23\packages\ti\sdo\ipc\notifyDrivers\lib\whole_program_debug\ti.sdo.ipc.notifyDrivers.a674"
+-l"C:\Program Files\Texas Instruments\ipc_1_21_02_23\packages\ti\sdo\ipc\family\da830\lib\whole_program_debug\ti.sdo.ipc.family.da830.a674"
+-l"C:\Program Files\Texas Instruments\ipc_1_21_02_23\packages\ti\sdo\ipc\gates\lib\whole_program_debug\ti.sdo.ipc.gates.a674"
+-l"C:\Program Files\Texas Instruments\ipc_1_21_02_23\packages\ti\sdo\ipc\lib\whole_program_debug\ti.sdo.ipc.a674"
+-l"C:\Program Files\Texas Instruments\ipc_1_21_02_23\packages\ti\sdo\ipc\heaps\lib\whole_program_debug\ti.sdo.ipc.heaps.a674"
+-l"C:\Program Files\Texas Instruments\bios_6_30_02_42\packages\ti\sysbios\syncs\lib\whole_program_debug\ti.sysbios.syncs.a674"
+-l"C:\Program Files\Texas Instruments\ipc_1_21_02_23\packages\ti\sdo\utils\lib\whole_program_debug\ti.sdo.utils.a674"
+-l"C:\Program Files\Texas Instruments\bios_6_30_02_42\packages\ti\sysbios\timers\timer64\lib\whole_program_debug\ti.sysbios.timers.timer64.a674"
+-l"C:\Program Files\Texas Instruments\bios_6_30_02_42\packages\ti\sysbios\gates\lib\whole_program_debug\ti.sysbios.gates.a674"
+-l"C:\Program Files\Texas Instruments\bios_6_30_02_42\packages\ti\sysbios\xdcruntime\lib\whole_program_debug\ti.sysbios.xdcruntime.a674"
+-l"C:\Program Files\Texas Instruments\bios_6_30_02_42\packages\ti\sysbios\lib\whole_program_debug\ti.sysbios.a674"
+-l"C:\Program Files\Texas Instruments\bios_6_30_02_42\packages\ti\sysbios\family\c64p\lib\whole_program_debug\ti.sysbios.family.c64p.a674"
+-l"C:\Program Files\Texas Instruments\bios_6_30_02_42\packages\ti\sysbios\hal\lib\whole_program_debug\ti.sysbios.hal.a674"
+-l"C:\Program Files\Texas Instruments\bios_6_30_02_42\packages\ti\sysbios\knl\lib\whole_program_debug\ti.sysbios.knl.a674"
+-l"C:\Program Files\Texas Instruments\bios_6_30_02_42\packages\ti\sysbios\family\c64p\primus\lib\whole_program_debug\ti.sysbios.family.c64p.primus.a674"
+-l"C:\Program Files\Texas Instruments\bios_6_30_02_42\packages\ti\sysbios\family\c62\lib\whole_program_debug\ti.sysbios.family.c62.a674"
+-l"C:\Program Files\Texas Instruments\ipc_1_21_02_23\packages\ti\sdo\ipc\interfaces\lib\whole_program_debug\ti.sdo.ipc.interfaces.a674"
+-l"C:\Program Files\Texas Instruments\xdctools_3_20_03_63\packages\ti\targets\rts6000\lib\ti.targets.rts6000.a674"
+-l"C:\Program Files\Texas Instruments\xdctools_3_20_03_63\packages\ti\targets\rts6000\lib\boot.a674"
+-l"C:\Program Files\Texas Instruments\ipc_1_21_02_23\packages\ti\sdo\ipc\family\lib\whole_program_debug\ti.sdo.ipc.family.a674"
+
+
+
+/* Elf symbols */
+--symbol_map ___TI_STACK_BASE=__stack
+--symbol_map ___TI_STACK_SIZE=__STACK_SIZE
+--symbol_map ___TI_STATIC_BASE=___bss__
+--symbol_map __c_int00=_c_int00
+
+
+
+SECTIONS
+{
+    .text: load = 0x20
+}

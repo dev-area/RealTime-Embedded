@@ -1,0 +1,1 @@
+-l"./configPkg/linker.cmd" "./message_dsp.obj" -l"libc.a" 

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>4270274931</fileChecksum>
+  <configuration>
+    <name>JLINK_FLASH</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+  <configuration>
+    <name>JLINK_RAM</name>
+    <outputs>
+      <file>$TOOLKIT_DIR$\lib\dl4t_tl_in.a</file>
+      <file>$PROJ_DIR$\JLINK_RAM\Exe\Uart.out</file>
+      <file>$TOOLKIT_DIR$\lib\rt4t_al.a</file>
+      <file>$PROJ_DIR$\..\Configuration\LPC2148_RAM.icf</file>
+      <file>$PROJ_DIR$\..\Source\lpc2xxx_cstartup.s</file>
+      <file>$PROJ_DIR$\JLINK_RAM\Obj\Demo.o</file>
+      <file>$PROJ_DIR$\JLINK_RAM\Obj\Demo.pbi</file>
+      <file>$PROJ_DIR$\JLINK_RAM\Obj\Uart.pbd</file>
+      <file>$PROJ_DIR$\JLINK_RAM\Obj\lpc2xxx_cstartup.o</file>
+      <file>$TOOLKIT_DIR$\inc\NXP\iolpc2148.h</file>
+      <file>$TOOLKIT_DIR$\lib\shs_l.a</file>
+      <file>$PROJ_DIR$\..\Source\Demo.c</file>
+      <file>$PROJ_DIR$\..\Source\Demo.h</file>
+      <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+      <file>$PROJ_DIR$\JLINK_RAM\List\Demo.lst</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\JLINK_RAM\Exe\Uart.out</name>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 3 5 8 10 2 0</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 1</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\lpc2xxx_cstartup.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 8</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\JLINK_RAM\Obj\Uart.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 6</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\Source\Demo.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 14 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 6</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 9 13</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 9 13</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

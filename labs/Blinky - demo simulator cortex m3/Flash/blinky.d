@@ -1,0 +1,9 @@
+.\Flash\blinky.o: Blinky.c
+.\Flash\blinky.o: C:\Keil\ARM\RV31\INC\stdio.h
+.\Flash\blinky.o: C:\Keil\ARM\INC\ST\STM32F10x\stm32f10x.h
+.\Flash\blinky.o: C:\Keil\ARM\RV31\INC\core_cm3.h
+.\Flash\blinky.o: C:\Keil\ARM\RV31\INC\stdint.h
+.\Flash\blinky.o: C:\Keil\ARM\RV31\INC\core_cmInstr.h
+.\Flash\blinky.o: C:\Keil\ARM\RV31\INC\core_cmFunc.h
+.\Flash\blinky.o: C:\Keil\ARM\INC\ST\STM32F10x\system_stm32f10x.h
+.\Flash\blinky.o: GLCD.h

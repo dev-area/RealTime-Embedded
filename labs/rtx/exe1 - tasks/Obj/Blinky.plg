@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Documents and Settings\Administrator\Desktop\course examples\rtx\exe1 - tasks\Blinky.uvproj
+Project File Date:  10/29/2010
+
+<h2>Output:</h2>
+Build target 'Simulator'
+compiling Blinky.C...
+Blinky.C(46): warning:  #951-D: return type of function "main" must be "int"
+Blinky.C(50): error:  #20: identifier "create_all" is undefined
+Target not created
+Build target 'Simulator'
+compiling Blinky.C...
+Blinky.C(47): warning:  #951-D: return type of function "main" must be "int"
+compiling RTX_Config.c...
+assembling Startup.s...
+linking...
+Program Size: Code=2916 RO-data=64 RW-data=40 ZI-data=2152  
+".\Obj\Blinky.axf" - 0 Error(s), 1 Warning(s).
+Build target 'Simulator'
+compiling Blinky.C...
+compiling RTX_Config.c...
+assembling Startup.s...
+linking...
+Program Size: Code=2920 RO-data=64 RW-data=40 ZI-data=2152  
+".\Obj\Blinky.axf" - 0 Error(s), 0 Warning(s).

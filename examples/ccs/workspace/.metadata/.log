@@ -1,0 +1,1023 @@
+!SESSION 2010-12-01 19:47:18.125 -----------------------------------------------
+eclipse.buildId=4.2.0.10017
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:51:02.546
+!MESSAGE Fatal Error: C674X_0: Error connecting to the target: Error 0x80000240/-1180 Fatal Error during: Initialization, OCS,  The target is being held in reset.  The applied reset must be released before progressing.  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:51:02.546
+!MESSAGE Fatal Error: C674X_0: Error connecting to the target: Error 0x80000240/-1180 Fatal Error during: Initialization, OCS,  The target is being held in reset.  The applied reset must be released before progressing.  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:51:02.546
+!MESSAGE Fatal Error: C674X_0: Error connecting to the target: Error 0x80000240/-1180 Fatal Error during: Initialization, OCS,  The target is being held in reset.  The applied reset must be released before progressing.  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:51:52.765
+!MESSAGE Fatal Error: ICEPICK_C: Power Failure on Target CPU: Error 0x80002020/-180 Fatal Error during: Execution, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:51:52.765
+!MESSAGE Fatal Error: ICEPICK_C: Power Failure on Target CPU: Error 0x80002020/-180 Fatal Error during: Execution, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:51:52.765
+!MESSAGE Fatal Error: ICEPICK_C: Power Failure on Target CPU: Error 0x80002020/-180 Fatal Error during: Execution, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:51:52.765
+!MESSAGE Error: ICEPICK_C: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:51:52.765
+!MESSAGE Error: ICEPICK_C: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:51:52.765
+!MESSAGE Error: ICEPICK_C: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:04.531
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:04.531
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:04.531
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:29.546
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:29.546
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:29.546
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:30.609
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:30.609
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:30.609
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:31.562
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:31.562
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 19:52:31.562
+!MESSAGE Error: C674X_0: Error connecting to the target: Connect to PRSC failed
+
+
+!ENTRY org.eclipse.ui 4 4 2010-12-01 19:53:04.984
+!MESSAGE Unhandled event loop exception
+
+!ENTRY org.eclipse.ui 4 0 2010-12-01 19:53:04.984
+!MESSAGE Argument cannot be null
+!STACK 0
+java.lang.IllegalArgumentException: Argument cannot be null
+	at org.eclipse.swt.SWT.error(SWT.java:3358)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:1649)
+	at com.ti.ccstudio.ui.forms.parts.FilePropertyField.browse(FilePropertyField.java:39)
+	at com.ti.ccstudio.ui.forms.parts.BrowsePropertyField$1.widgetSelected(BrowsePropertyField.java:29)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:90)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3348)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2968)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1914)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1878)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:419)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:97)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:996)
+	at org.eclipse.core.launcher.Main.main(Main.java:971)
+
+!ENTRY org.eclipse.ui 4 4 2010-12-01 19:55:19.453
+!MESSAGE Unhandled event loop exception
+
+!ENTRY org.eclipse.ui 4 0 2010-12-01 19:55:19.453
+!MESSAGE Argument cannot be null
+!STACK 0
+java.lang.IllegalArgumentException: Argument cannot be null
+	at org.eclipse.swt.SWT.error(SWT.java:3358)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Text.setText(Text.java:1649)
+	at com.ti.ccstudio.ui.forms.parts.FilePropertyField.browse(FilePropertyField.java:39)
+	at com.ti.ccstudio.ui.forms.parts.BrowsePropertyField$1.widgetSelected(BrowsePropertyField.java:29)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:90)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3348)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2968)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1914)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1878)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:419)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:97)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:996)
+	at org.eclipse.core.launcher.Main.main(Main.java:971)
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 20:23:08.937
+!MESSAGE Fatal Error: C674X_0: Error connecting to the target: Error 0x80000240/-1180 Fatal Error during: Initialization, OCS,  The target is being held in reset.  The applied reset must be released before progressing.  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 20:23:08.937
+!MESSAGE Fatal Error: C674X_0: Error connecting to the target: Error 0x80000240/-1180 Fatal Error during: Initialization, OCS,  The target is being held in reset.  The applied reset must be released before progressing.  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 20:23:09.562
+!MESSAGE Fatal Error: ICEPICK_C: Power Failure on Target CPU: Error 0x80002020/-180 Fatal Error during: Execution, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 20:23:09.562
+!MESSAGE Fatal Error: ICEPICK_C: Power Failure on Target CPU: Error 0x80002020/-180 Fatal Error during: Execution, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 20:23:09.562
+!MESSAGE Error: ICEPICK_C: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 20:23:09.562
+!MESSAGE Error: ICEPICK_C: Failed to remove the debug state from the target before disconnecting.  There may still be breakpoint op-codes embedded in program memory.  It is recommended that you reset the emulator before you connect and reload your program before you continue debugging
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 20:23:40.031
+!MESSAGE Fatal Error: C674X_0: Error connecting to the target: Error 0x80000240/-1180 Fatal Error during: Initialization, OCS,  The target is being held in reset.  The applied reset must be released before progressing.  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 20:23:40.031
+!MESSAGE Fatal Error: C674X_0: Error connecting to the target: Error 0x80000240/-1180 Fatal Error during: Initialization, OCS,  The target is being held in reset.  The applied reset must be released before progressing.  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 20:24:27.859
+!MESSAGE Fatal Error: C674X_0: Error connecting to the target: Error 0x80000240/-1180 Fatal Error during: Initialization, OCS,  The target is being held in reset.  The applied reset must be released before progressing.  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-01 20:24:27.859
+!MESSAGE Fatal Error: C674X_0: Error connecting to the target: Error 0x80000240/-1180 Fatal Error during: Initialization, OCS,  The target is being held in reset.  The applied reset must be released before progressing.  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 6 2010-12-01 20:59:24.484
+!MESSAGE Failed to load program 'C:\Documents and Settings\Administrator\My Documents\workspace\Blink\Debug\Blink.out' on target 'Texas Instruments XDS100v2 USB Emulator_0/C674X_0'.
+
+Reason:
+Invalid file format
+
+!ENTRY org.eclipse.ui.workbench 4 0 2010-12-02 12:01:07.718
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView.disposeActions(LaunchView.java:677)
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView.dispose(LaunchView.java:621)
+	at org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart(WorkbenchPartReference.java:687)
+	at org.eclipse.ui.internal.ViewReference.doDisposePart(ViewReference.java:97)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:642)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1541)
+	at org.eclipse.ui.internal.WorkbenchPage.partRemoved(WorkbenchPage.java:1533)
+	at org.eclipse.ui.internal.ViewFactory.releaseView(ViewFactory.java:252)
+	at org.eclipse.ui.internal.Perspective.dispose(Perspective.java:240)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1597)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:748)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1499)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:622)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:598)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.run(WorkbenchWindow.java:713)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:711)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$12.run(Workbench.java:712)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:709)
+	at org.eclipse.ui.internal.Workbench.access$8(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$14.run(Workbench.java:839)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:837)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:812)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:619)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:598)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.run(WorkbenchWindow.java:713)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:711)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:736)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:682)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:159)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:952)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:937)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:257)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1606)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3248)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1539)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1634)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4025)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:1922)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:443)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3334)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1539)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1634)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4025)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:1922)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:443)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3334)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1539)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1634)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4025)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:1927)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2966)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1914)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1878)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:419)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:97)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:996)
+	at org.eclipse.core.launcher.Main.main(Main.java:971)
+!SESSION 2010-12-02 21:37:58.078 -----------------------------------------------
+eclipse.buildId=4.2.0.10017
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZW
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.update.core 4 0 2010-12-08 00:04:07.484
+!MESSAGE UpdateManagerUtils copy() at offset:3526664 [Connection reset]
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.MeteredStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.update.internal.core.connection.HttpResponse$MonitoringInputStream.read(HttpResponse.java:92)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.update.internal.core.connection.HttpResponse$MonitoringInputStream.read(HttpResponse.java:83)
+	at org.eclipse.update.internal.core.UpdateManagerUtils.copy(UpdateManagerUtils.java:932)
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:292)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getNonPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:287)
+	at org.eclipse.update.internal.operations.UpdateUtils.downloadFeatureContent(UpdateUtils.java:636)
+	at org.eclipse.update.internal.ui.wizards.InstallWizard2.download(InstallWizard2.java:416)
+	at org.eclipse.update.internal.ui.wizards.InstallWizard2.access$3(InstallWizard2.java:398)
+	at org.eclipse.update.internal.ui.wizards.InstallWizard2$3.run(InstallWizard2.java:351)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.update.core 4 0 2010-12-08 11:17:03.531
+!MESSAGE UpdateManagerUtils copy() at offset:10153908 [Connection reset]
+!STACK 0
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at sun.net.www.MeteredStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.update.internal.core.connection.HttpResponse$MonitoringInputStream.read(HttpResponse.java:92)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.update.internal.core.connection.HttpResponse$MonitoringInputStream.read(HttpResponse.java:83)
+	at org.eclipse.update.internal.core.UpdateManagerUtils.copy(UpdateManagerUtils.java:932)
+	at org.eclipse.update.core.FeatureContentProvider.asLocalReference(FeatureContentProvider.java:292)
+	at org.eclipse.update.internal.core.FeaturePackagedContentProvider.getNonPluginEntryArchiveReferences(FeaturePackagedContentProvider.java:287)
+	at org.eclipse.update.internal.operations.UpdateUtils.downloadFeatureContent(UpdateUtils.java:636)
+	at org.eclipse.update.internal.ui.wizards.InstallWizard2.download(InstallWizard2.java:416)
+	at org.eclipse.update.internal.ui.wizards.InstallWizard2.access$3(InstallWizard2.java:398)
+	at org.eclipse.update.internal.ui.wizards.InstallWizard2$3.run(InstallWizard2.java:351)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.core.runtime 8 1 2010-12-13 14:36:35.937
+!MESSAGE 
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:10.953
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0xC0002025/-154 Error during: Command, Register, Execution, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:10.953
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0xC0002025/-154 Error during: Command, Register, Execution, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:22.656
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0x80002240/-151 Fatal Error during: Initialization, OCS, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:22.656
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0x80002240/-151 Fatal Error during: Initialization, OCS, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:23.546
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0x80002240/-151 Fatal Error during: Initialization, OCS, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:23.546
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0x80002240/-151 Fatal Error during: Initialization, OCS, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:31.437
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0x80002240/-151 Fatal Error during: Initialization, OCS, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:31.437
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0x80002240/-151 Fatal Error during: Initialization, OCS, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:52.421
+!MESSAGE Fatal Error: ICEPICK_C: Error: Error 0x80002020/-154 Fatal Error during: Execution, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:52.421
+!MESSAGE Fatal Error: ICEPICK_C: Error: Error 0x80002020/-154 Fatal Error during: Execution, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:52.468
+!MESSAGE Error: C674X_0: Failed to retrieve the Wait in Reset Mode: Failed to get PRSC status
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:52.468
+!MESSAGE Error: C674X_0: Failed to retrieve the Wait in Reset Mode: Failed to get PRSC status
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:52.468
+!MESSAGE Error: ARM9_0: Failed to retrieve the Wait in Reset Mode: Failed to get PRSC status
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:52.484
+!MESSAGE Error: ARM9_0: Failed to retrieve the Wait in Reset Mode: Failed to get PRSC status
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:54.687
+!MESSAGE Error: ICEPICK_C: A fatal error occured while attempting to remove the remaining debug state that could not be removed at disconnect.  This might have occured because a breakpoint was set at an address that is no longer valid.  This behaviour may be turned off in the "Debug Properties" tab in the Customize dialog under the Option menu
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:40:54.687
+!MESSAGE Error: ICEPICK_C: A fatal error occured while attempting to remove the remaining debug state that could not be removed at disconnect.  This might have occured because a breakpoint was set at an address that is no longer valid.  This behaviour may be turned off in the "Debug Properties" tab in the Customize dialog under the Option menu
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:41:46.796
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0x80002240/-154 Fatal Error during: Initialization, OCS, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:41:46.812
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0x80002240/-154 Fatal Error during: Initialization, OCS, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:42:28.109
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0x80002240/-154 Fatal Error during: Initialization, OCS, Control,  
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 14:42:28.109
+!MESSAGE Fatal Error: ICEPICK_C: Error connecting to the target: Error 0x80002240/-154 Fatal Error during: Initialization, OCS, Control,  
+
+
+!ENTRY org.eclipse.ui.workbench 4 0 2010-12-13 14:42:34.812
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView.disposeActions(LaunchView.java:677)
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView.dispose(LaunchView.java:621)
+	at org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart(WorkbenchPartReference.java:687)
+	at org.eclipse.ui.internal.ViewReference.doDisposePart(ViewReference.java:97)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:642)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1541)
+	at org.eclipse.ui.internal.WorkbenchPage.partRemoved(WorkbenchPage.java:1533)
+	at org.eclipse.ui.internal.ViewFactory.releaseView(ViewFactory.java:252)
+	at org.eclipse.ui.internal.Perspective.dispose(Perspective.java:240)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1597)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:748)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1499)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:622)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:598)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.run(WorkbenchWindow.java:713)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:711)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$12.run(Workbench.java:712)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:709)
+	at org.eclipse.ui.internal.Workbench.access$8(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$14.run(Workbench.java:839)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:837)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:812)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:619)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:598)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.run(WorkbenchWindow.java:713)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:711)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:736)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:682)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:159)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:952)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:937)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:257)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1606)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3248)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1539)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1634)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4025)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:1922)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:443)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3334)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1539)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1634)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4025)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:1922)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:443)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3334)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1539)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1634)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4025)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:1927)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2966)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1914)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1878)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:419)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:97)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:996)
+	at org.eclipse.core.launcher.Main.main(Main.java:971)
+
+!ENTRY org.eclipse.debug.ui 4 2 2010-12-13 14:42:34.859
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.ui".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugEventHandler.fireDelta(DebugEventHandler.java:177)
+	at org.eclipse.debug.internal.ui.viewers.update.ThreadEventHandler.updateTerminatedThread(ThreadEventHandler.java:386)
+	at org.eclipse.debug.internal.ui.viewers.update.ThreadEventHandler.handleTerminate(ThreadEventHandler.java:128)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchTerminate(EventHandlerModelProxy.java:179)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:135)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.debug.ui 4 120 2010-12-13 14:42:34.859
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugEventHandler.fireDelta(DebugEventHandler.java:177)
+	at org.eclipse.debug.internal.ui.viewers.update.ThreadEventHandler.updateTerminatedThread(ThreadEventHandler.java:386)
+	at org.eclipse.debug.internal.ui.viewers.update.ThreadEventHandler.handleTerminate(ThreadEventHandler.java:128)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchTerminate(EventHandlerModelProxy.java:179)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:135)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.debug.ui 4 2 2010-12-13 14:42:34.859
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.ui".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugEventHandler.fireDelta(DebugEventHandler.java:177)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugTargetEventHandler.fireDelta(DebugTargetEventHandler.java:87)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugTargetEventHandler.handleChange(DebugTargetEventHandler.java:51)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchChange(EventHandlerModelProxy.java:239)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:144)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.debug.ui 4 120 2010-12-13 14:42:34.890
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugEventHandler.fireDelta(DebugEventHandler.java:177)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugTargetEventHandler.fireDelta(DebugTargetEventHandler.java:87)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugTargetEventHandler.handleChange(DebugTargetEventHandler.java:51)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchChange(EventHandlerModelProxy.java:239)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:144)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.debug.ui 4 2 2010-12-13 14:42:35.359
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.ui".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.LaunchManagerProxy.fireDelta(LaunchManagerProxy.java:88)
+	at org.eclipse.debug.internal.ui.viewers.update.LaunchManagerProxy.launchesTerminated(LaunchManagerProxy.java:59)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:290)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:243)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:880)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:401)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:571)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.debug.ui 4 120 2010-12-13 14:42:35.375
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.LaunchManagerProxy.fireDelta(LaunchManagerProxy.java:88)
+	at org.eclipse.debug.internal.ui.viewers.update.LaunchManagerProxy.launchesTerminated(LaunchManagerProxy.java:59)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:290)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:243)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:880)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:401)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:571)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.debug.ui 4 2 2010-12-13 14:42:35.437
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.ui".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugEventHandler.fireDelta(DebugEventHandler.java:177)
+	at org.eclipse.debug.internal.ui.viewers.update.ThreadEventHandler.updateTerminatedThread(ThreadEventHandler.java:386)
+	at org.eclipse.debug.internal.ui.viewers.update.ThreadEventHandler.handleTerminate(ThreadEventHandler.java:128)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchTerminate(EventHandlerModelProxy.java:179)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:135)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.debug.ui 4 120 2010-12-13 14:42:35.437
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugEventHandler.fireDelta(DebugEventHandler.java:177)
+	at org.eclipse.debug.internal.ui.viewers.update.ThreadEventHandler.updateTerminatedThread(ThreadEventHandler.java:386)
+	at org.eclipse.debug.internal.ui.viewers.update.ThreadEventHandler.handleTerminate(ThreadEventHandler.java:128)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchTerminate(EventHandlerModelProxy.java:179)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:135)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.debug.ui 4 2 2010-12-13 14:42:35.437
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.ui".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugEventHandler.fireDelta(DebugEventHandler.java:177)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugTargetEventHandler.fireDelta(DebugTargetEventHandler.java:87)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugTargetEventHandler.handleChange(DebugTargetEventHandler.java:51)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchChange(EventHandlerModelProxy.java:239)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:144)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.debug.ui 4 120 2010-12-13 14:42:35.437
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugEventHandler.fireDelta(DebugEventHandler.java:177)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugTargetEventHandler.fireDelta(DebugTargetEventHandler.java:87)
+	at org.eclipse.debug.internal.ui.viewers.update.DebugTargetEventHandler.handleChange(DebugTargetEventHandler.java:51)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.dispatchChange(EventHandlerModelProxy.java:239)
+	at org.eclipse.debug.internal.ui.viewers.update.EventHandlerModelProxy.handleDebugEvents(EventHandlerModelProxy.java:144)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.debug.ui 4 2 2010-12-13 14:42:35.812
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.ui".
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.LaunchManagerProxy.fireDelta(LaunchManagerProxy.java:88)
+	at org.eclipse.debug.internal.ui.viewers.update.LaunchManagerProxy.launchesTerminated(LaunchManagerProxy.java:59)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:290)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:243)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:880)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:401)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:571)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+
+!ENTRY org.eclipse.debug.ui 4 120 2010-12-13 14:42:35.937
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3374)
+	at org.eclipse.swt.SWT.error(SWT.java:3297)
+	at org.eclipse.swt.SWT.error(SWT.java:3268)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:435)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:545)
+	at org.eclipse.debug.internal.ui.viewers.AsynchronousViewer.preservingSelection(AsynchronousViewer.java:722)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1386)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.handleContent(TreeUpdatePolicy.java:100)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:61)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.updateNodes(TreeUpdatePolicy.java:83)
+	at org.eclipse.debug.internal.ui.viewers.TreeUpdatePolicy.modelChanged(TreeUpdatePolicy.java:34)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy$1.run(AbstractModelProxy.java:70)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.ui.viewers.provisional.AbstractModelProxy.fireModelChanged(AbstractModelProxy.java:74)
+	at org.eclipse.debug.internal.ui.viewers.update.LaunchManagerProxy.fireDelta(LaunchManagerProxy.java:88)
+	at org.eclipse.debug.internal.ui.viewers.update.LaunchManagerProxy.launchesTerminated(LaunchManagerProxy.java:59)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.run(LaunchManager.java:290)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.internal.core.LaunchManager$LaunchesNotifier.notify(LaunchManager.java:243)
+	at org.eclipse.debug.internal.core.LaunchManager.fireUpdate(LaunchManager.java:880)
+	at org.eclipse.debug.core.Launch.fireTerminate(Launch.java:401)
+	at org.eclipse.debug.core.Launch.handleDebugEvents(Launch.java:571)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1086)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1119)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:344)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:58)
+!SESSION 2010-12-13 14:43:09.843 -----------------------------------------------
+eclipse.buildId=4.2.0.10017
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZW
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 15:36:36.312
+!MESSAGE Error: C674X_0: Trouble Writing Memory Block at 0x420 on Page 0 of Length 0x3c0: Error 0x00000002/-1190 Error during: Memory,  The DTDMA memory request is not serviced by the HW memory system.  This could be caused by the memory address specified does not exist in the specified  memory/cache level.   
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 0 2010-12-13 15:36:36.328
+!MESSAGE Error: C674X_0: Trouble Writing Memory Block at 0x420 on Page 0 of Length 0x3c0: Error 0x00000002/-1190 Error during: Memory,  The DTDMA memory request is not serviced by the HW memory system.  This could be caused by the memory address specified does not exist in the specified  memory/cache level.   
+
+
+!ENTRY com.ti.ccstudio.debug.core 4 13 2010-12-13 15:36:36.718
+!MESSAGE Failed to load program 'C:\Documents and Settings\Administrator\My Documents\workspace\sendmsg\Debug\sendmsg.out' on target 'Texas Instruments XDS100v2 USB Emulator_0/C674X_0'.
+
+Reason:
+Cannot write to target
+
+!ENTRY org.eclipse.ui 4 4 2010-12-13 15:43:53.015
+!MESSAGE Invalid Menu Extension (Path is invalid): com.ti.ccstudio.managedbuild.ui.actions.UpgradeCodegenToolVersionAction
+
+!ENTRY org.eclipse.ui 4 4 2010-12-13 15:43:53.015
+!MESSAGE Invalid Menu Extension (Path is invalid): org.eclipse.rtsc.xdctools.project.ui.actions.UpgradeRTSCProductVersionAction
+
+!ENTRY org.eclipse.ui.workbench 4 0 2010-12-17 09:05:36.609
+!MESSAGE An unexpected exception was thrown.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView.disposeActions(LaunchView.java:677)
+	at org.eclipse.debug.internal.ui.views.launch.LaunchView.dispose(LaunchView.java:621)
+	at org.eclipse.ui.internal.WorkbenchPartReference.doDisposePart(WorkbenchPartReference.java:687)
+	at org.eclipse.ui.internal.ViewReference.doDisposePart(ViewReference.java:97)
+	at org.eclipse.ui.internal.WorkbenchPartReference.dispose(WorkbenchPartReference.java:642)
+	at org.eclipse.ui.internal.WorkbenchPage.disposePart(WorkbenchPage.java:1541)
+	at org.eclipse.ui.internal.WorkbenchPage.partRemoved(WorkbenchPage.java:1533)
+	at org.eclipse.ui.internal.ViewFactory.releaseView(ViewFactory.java:252)
+	at org.eclipse.ui.internal.Perspective.dispose(Perspective.java:240)
+	at org.eclipse.ui.internal.WorkbenchPage.dispose(WorkbenchPage.java:1597)
+	at org.eclipse.ui.internal.WorkbenchWindow.closeAllPages(WorkbenchWindow.java:748)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1499)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:622)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:598)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.run(WorkbenchWindow.java:713)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:711)
+	at org.eclipse.jface.window.WindowManager.close(WindowManager.java:109)
+	at org.eclipse.ui.internal.Workbench$12.run(Workbench.java:712)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:709)
+	at org.eclipse.ui.internal.Workbench.access$8(Workbench.java:639)
+	at org.eclipse.ui.internal.Workbench$14.run(Workbench.java:839)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:837)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:812)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:619)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$0(WorkbenchWindow.java:598)
+	at org.eclipse.ui.internal.WorkbenchWindow$2.run(WorkbenchWindow.java:713)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:67)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:711)
+	at org.eclipse.jface.window.Window.handleShellCloseEvent(Window.java:736)
+	at org.eclipse.jface.window.Window$3.shellClosed(Window.java:682)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:159)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:66)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:928)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:952)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:937)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:257)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1606)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3248)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1539)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1634)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4025)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:1922)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:443)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3334)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1539)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1634)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4025)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:1922)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:443)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3334)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1539)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:1634)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4025)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:1927)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:2966)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:1914)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:1878)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:419)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.IDEApplication.run(IDEApplication.java:97)
+	at org.eclipse.core.internal.runtime.PlatformActivator$1.run(PlatformActivator.java:78)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:92)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:68)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.core.launcher.Main.invokeFramework(Main.java:336)
+	at org.eclipse.core.launcher.Main.basicRun(Main.java:280)
+	at org.eclipse.core.launcher.Main.run(Main.java:996)
+	at org.eclipse.core.launcher.Main.main(Main.java:971)
+!SESSION 2011-03-17 08:59:17.125 -----------------------------------------------
+eclipse.buildId=4.2.0.10017
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZW
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.browser 2 0 2011-03-17 09:00:20.015
+!MESSAGE Internal browser is not available: Invalid thread access
+!SESSION 2011-03-17 09:07:34.046 -----------------------------------------------
+eclipse.buildId=4.2.0.10017
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZW
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.browser 2 0 2011-03-17 09:07:49.734
+!MESSAGE Internal browser is not available: Invalid thread access
+!SESSION 2011-03-17 09:37:45.546 -----------------------------------------------
+eclipse.buildId=4.2.0.10017
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZW
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.browser 2 0 2011-03-17 09:38:54.187
+!MESSAGE Internal browser is not available: Invalid thread access
+!SESSION 2011-03-17 13:43:22.562 -----------------------------------------------
+eclipse.buildId=4.2.0.10017
+java.version=1.5.0_14
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_ZW
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.browser 2 0 2011-03-17 13:44:13.968
+!MESSAGE Internal browser is not available: Invalid thread access

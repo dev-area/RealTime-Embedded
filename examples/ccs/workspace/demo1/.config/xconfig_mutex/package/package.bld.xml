@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="xconfig_mutex" version="" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/cfg/mutex_x11e.c"/>
+    </sources>
+    <configurations>
+        <srcFile name="C:/Documents and Settings/Administrator/My Documents/workspace/demo1/mutex.cfg"/>
+    </configurations>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/cfg/mutex_x11e.mak" src="package.bld"/>
+        <srcFile name="package/cfg/mutex_x11e.o11e.dep" src="package/cfg/mutex_x11e.c"/>
+        <srcFile name="package/cfg/mutex_x11e.dep" src="package/cfg/mutex_x11e.cfg"/>
+        <srcFile name="package/rel/xconfig_mutex.tar.dep" src="package/rel/xconfig_mutex.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="ti.targets.arm.Arm11_big_endian"
+            version="ti.targets.arm.Arm11_big_endian{1,0,4.6,3"
+            platform="ti.platforms.sim470xx"
+            isa="v6"
+            suffix="11e"
+            rootDir="C:/PROGRA~1/TEXASI~1/ccsv4/tools/compiler/tms470"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    </libraries>
+    <executables>
+    <executable name="mutex"
+        pname="mutex.x11e"
+        target="ti.targets.arm.Arm11_big_endian"
+        platform="ti.platforms.evmTNETV107X"
+        profile="release"
+        xCfgScript="package/cfg/mutex_x11e.cfg"
+        xCfgPrefix="package/cfg/mutex_x11e"
+        cfgScript="C:/Documents and Settings/Administrator/My Documents/workspace/demo1/mutex.cfg"
+        cfgArgs="null"
+        />
+    </executables>
+    <tests>
+    <test exeName="mutex.x11e"
+        args=""
+        groupName="mutex.x11e"
+        refOutput="undefined"
+        refExitCode="0"
+        execArgs=""
+        />
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="xconfig_mutex"
+        pname="xconfig_mutex.tar"
+        label="default"
+    >
+        <file name="package/build.cfg"/>
+        <file name="package/package.ext.xml"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="package/package.bld.xml"/>
+        <file name="package/package.rel.dot"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

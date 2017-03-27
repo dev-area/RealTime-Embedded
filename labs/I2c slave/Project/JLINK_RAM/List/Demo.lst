@@ -1,0 +1,473 @@
+###############################################################################
+#                                                                             #
+#                                                       31/Dec/2010  11:08:04 #
+# IAR ANSI C/C++ Compiler V5.50.7.32081/W32 KICKSTART for ARM                 #
+# Copyright (C) 1999-2010 IAR Systems AB.                                     #
+#                                                                             #
+#    Cpu mode     =  thumb                                                    #
+#    Endian       =  little                                                   #
+#    Source file  =  C:\Documents and Settings\Administrator\My               #
+#                    Documents\IAR Embedded Workbench\arm\examples\NXP\LPC214 #
+#                    x\IAR-LPC-214X\Uart\Source\Demo.c                        #
+#    Command line =  "C:\Documents and Settings\Administrator\My              #
+#                    Documents\IAR Embedded Workbench\arm\examples\NXP\LPC214 #
+#                    x\IAR-LPC-214X\Uart\Source\Demo.c" -lCN "C:\Documents    #
+#                    and Settings\Administrator\My Documents\IAR Embedded     #
+#                    Workbench\arm\examples\NXP\LPC214x\IAR-LPC-214X\Uart\Pro #
+#                    ject\JLINK_RAM\List\" -o "C:\Documents and               #
+#                    Settings\Administrator\My Documents\IAR Embedded         #
+#                    Workbench\arm\examples\NXP\LPC214x\IAR-LPC-214X\Uart\Pro #
+#                    ject\JLINK_RAM\Obj\" --no_cse --no_unroll --no_inline    #
+#                    --no_code_motion --no_tbaa --no_clustering               #
+#                    --no_scheduling --debug --endian=little                  #
+#                    --cpu=ARM7TDMI-S -e --fpu=None --dlib_config             #
+#                    "C:\Program Files\IAR Systems\Embedded Workbench 5.4     #
+#                    Kickstart\arm\INC\DLib_Config_Normal.h" -I               #
+#                    "C:\Documents and Settings\Administrator\My              #
+#                    Documents\IAR Embedded Workbench\arm\examples\NXP\LPC214 #
+#                    x\IAR-LPC-214X\Uart\Project\..\Source\" -I "C:\Program   #
+#                    Files\IAR Systems\Embedded Workbench 5.4                 #
+#                    Kickstart\arm\INC\" --interwork --cpu_mode thumb -Ol     #
+#    List file    =  C:\Documents and Settings\Administrator\My               #
+#                    Documents\IAR Embedded Workbench\arm\examples\NXP\LPC214 #
+#                    x\IAR-LPC-214X\Uart\Project\JLINK_RAM\List\Demo.lst      #
+#    Object file  =  C:\Documents and Settings\Administrator\My               #
+#                    Documents\IAR Embedded Workbench\arm\examples\NXP\LPC214 #
+#                    x\IAR-LPC-214X\Uart\Project\JLINK_RAM\Obj\Demo.o         #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+C:\Documents and Settings\Administrator\My Documents\IAR Embedded Workbench\arm\examples\NXP\LPC214x\IAR-LPC-214X\Uart\Source\Demo.c
+      1          #include <NXP/iolpc2148.h>
+
+   \                                 In section .data, at 0xfffff010
+   \   __absolute union <unnamed> volatile _A_VICIntEnable
+   \                     _A_VICIntEnable:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xfffff030
+   \   __absolute unsigned long volatile VICVectAddr
+   \                     VICVectAddr:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xfffff100
+   \   __absolute unsigned long volatile VICVectAddr0
+   \                     VICVectAddr0:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xfffff200
+   \   __absolute union <unnamed> volatile _A_VICVectCntl0
+   \                     _A_VICVectCntl0:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xe002c000
+   \   __absolute union <unnamed> volatile _A_PINSEL0
+   \                     _A_PINSEL0:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xe002c004
+   \   __absolute union <unnamed> volatile _A_PINSEL1
+   \                     _A_PINSEL1:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xe0028014
+   \   __absolute union <unnamed> volatile _A_IO1SET
+   \                     _A_IO1SET:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xe0028018
+   \   __absolute union <unnamed> volatile _A_IO1DIR
+   \                     _A_IO1DIR:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xe002801c
+   \   __absolute union <unnamed> volatile _A_IO1CLR
+   \                     _A_IO1CLR:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xe001c000
+   \   __absolute union <unnamed> volatile _A_I2C0CONSET
+   \                     _A_I2C0CONSET:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xe001c004
+   \   __absolute union <unnamed> const volatile _A_I2C0STAT
+   \                     _A_I2C0STAT:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xe001c008
+   \   __absolute union <unnamed> volatile _A_I2C0DAT
+   \                     _A_I2C0DAT:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xe001c00c
+   \   __absolute union <unnamed> volatile _A_I2C0ADR
+   \                     _A_I2C0ADR:
+   \   00000000                      DS8 4
+
+   \                                 In section .data, at 0xe001c018
+   \   __absolute union <unnamed> volatile _A_I2C0CONCLR
+   \                     _A_I2C0CONCLR:
+   \   00000000                      DS8 4
+      2          /*************************************************************************
+      3           * Function Name: irq_handler
+      4           * Parameters: void
+      5           * Return: void
+      6           *
+      7           * Description: IRQ subroutine
+      8          * Note: This is ARM mode code - full 32 bit code	
+      9           *************************************************************************/
+
+   \                                 In section .text, align 4, keep-with-next
+     10          __irq __arm void irq_handler (void)
+     11          {
+   \                     irq_handler:
+   \   00000000   04E04EE2           SUB      LR,LR,#+4
+   \   00000004   0F502DE9           PUSH     {R0-R3,R12,LR}
+     12            void (*interrupt_function)();
+     13            unsigned int vector;
+     14          
+     15            vector = VICVectAddr;     // Get interrupt vector.
+   \   00000008   CF00E0E3           MVN      R0,#+207
+   \   0000000C   F00EC0E3           BIC      R0,R0,#0xF00
+   \   00000010   000090E5           LDR      R0,[R0, #+0]
+     16            interrupt_function = (void(*)())vector;
+     17            (*interrupt_function)();  // Call vectored interrupt function thru pointer
+   \   00000014   0FE0A0E1           MOV      LR,PC
+   \   00000018   10FF2FE1           BX       R0
+     18            VICVectAddr = 0;          // Clear interrupt in VIC
+   \   0000001C   CF00E0E3           MVN      R0,#+207
+   \   00000020   F00EC0E3           BIC      R0,R0,#0xF00
+   \   00000024   0010A0E3           MOV      R1,#+0
+   \   00000028   001080E5           STR      R1,[R0, #+0]
+     19          }
+   \   0000002C   0F90FDE8           LDM      SP!,{R0-R3,R12,PC}^  ;; return
+   \   00000030                      REQUIRE VICVectAddr
+     20          
+     21          /*************************************************************************
+     22           * Function Name: fiq_handler
+     23           * Parameters: void
+     24           * Return: void
+     25           *
+     26           * Description: FIQ subroutine
+     27          * Note: This is ARM mode code - full 32 bit code	
+     28           *************************************************************************/
+
+   \                                 In section .text, align 4, keep-with-next
+     29          __fiq __arm void fiq_handler (void)
+     30          {
+     31            while(1);
+   \                     fiq_handler:
+   \                     ??fiq_handler_0:
+   \   00000000   FEFFFFEA           B        ??fiq_handler_0
+     32          }
+     33          
+
+   \                                 In section .data, align 1
+     34          unsigned char SlaveRcv = 0xAA;
+   \                     SlaveRcv:
+   \   00000000   AA                 DC8 170
+
+   \                                 In section .bss, align 1
+     35          unsigned char SlaveSnd; 
+   \                     SlaveSnd:
+   \   00000000                      DS8 1
+     36          
+
+   \                                 In section .text, align 2, keep-with-next
+     37          void I2C0_Isr(void)
+     38          {
+   \                     I2C0_Isr:
+   \   00000000   00B5               PUSH     {LR}
+     39            unsigned char st;
+     40            st = I2C0STAT; 
+   \   00000002   ....               LDR      R0,??DataTable1  ;; 0xe001c004
+   \   00000004   0068               LDR      R0,[R0, #+0]
+     41            I2C0CONCLR = 0x2C; 
+   \   00000006   ....               LDR      R1,??DataTable1_1  ;; 0xe001c018
+   \   00000008   2C22               MOVS     R2,#+44
+   \   0000000A   0A60               STR      R2,[R1, #+0]
+     42            switch(st) {
+   \   0000000C   0006               LSLS     R0,R0,#+24       ;; ZeroExtS R0,R0,#+24,#+24
+   \   0000000E   000E               LSRS     R0,R0,#+24
+   \   00000010   6038               SUBS     R0,R0,#+96
+   \   00000012   10D0               BEQ      ??I2C0_Isr_0
+   \   00000014   0838               SUBS     R0,R0,#+8
+   \   00000016   0ED0               BEQ      ??I2C0_Isr_0
+   \   00000018   1838               SUBS     R0,R0,#+24
+   \   0000001A   10D0               BEQ      ??I2C0_Isr_1
+   \   0000001C   0838               SUBS     R0,R0,#+8
+   \   0000001E   1CD0               BEQ      ??I2C0_Isr_2
+   \   00000020   1838               SUBS     R0,R0,#+24
+   \   00000022   1AD0               BEQ      ??I2C0_Isr_2
+   \   00000024   0838               SUBS     R0,R0,#+8
+   \   00000026   1CD0               BEQ      ??I2C0_Isr_3
+   \   00000028   1038               SUBS     R0,R0,#+16
+   \   0000002A   1AD0               BEQ      ??I2C0_Isr_3
+   \   0000002C   0838               SUBS     R0,R0,#+8
+   \   0000002E   14D0               BEQ      ??I2C0_Isr_2
+   \   00000030   0838               SUBS     R0,R0,#+8
+   \   00000032   12D0               BEQ      ??I2C0_Isr_2
+   \   00000034   1AE0               B        ??I2C0_Isr_4
+     43                case 0x60: 
+     44                case 0x68:
+     45                        I2C0CONSET = 0x04; 
+   \                     ??I2C0_Isr_0:
+   \   00000036   ....               LDR      R0,??DataTable1_2  ;; 0xe001c000
+   \   00000038   0421               MOVS     R1,#+4
+   \   0000003A   0160               STR      R1,[R0, #+0]
+   \   0000003C   16E0               B        ??I2C0_Isr_5
+     46                        break ;
+     47                case 0x80: 
+     48                        SlaveRcv = I2C0DAT;
+   \                     ??I2C0_Isr_1:
+   \   0000003E   ....               LDR      R0,??DataTable1_3
+   \   00000040   ....               LDR      R1,??DataTable1_4  ;; 0xe001c008
+   \   00000042   0968               LDR      R1,[R1, #+0]
+   \   00000044   0170               STRB     R1,[R0, #+0]
+     49                        IO1CLR = 0x00FF0000;
+   \   00000046   ....               LDR      R0,??DataTable1_5  ;; 0xe002801c
+   \   00000048   FF21               MOVS     R1,#+255
+   \   0000004A   0904               LSLS     R1,R1,#+16       ;; #+16711680
+   \   0000004C   0160               STR      R1,[R0, #+0]
+     50                        IO1SET = SlaveRcv << 16;
+   \   0000004E   ....               LDR      R0,??DataTable1_3
+   \   00000050   0078               LDRB     R0,[R0, #+0]
+   \   00000052   0004               LSLS     R0,R0,#+16
+   \   00000054   ....               LDR      R1,??DataTable1_6  ;; 0xe0028014
+   \   00000056   0860               STR      R0,[R1, #+0]
+   \   00000058   08E0               B        ??I2C0_Isr_5
+     51                        break ;
+     52                case 0x88: 
+     53                case 0xA0: 
+     54                case 0xC0: 
+     55                case 0xC8: 
+     56                        I2C0CONSET = 0x04;
+   \                     ??I2C0_Isr_2:
+   \   0000005A   ....               LDR      R0,??DataTable1_2  ;; 0xe001c000
+   \   0000005C   0421               MOVS     R1,#+4
+   \   0000005E   0160               STR      R1,[R0, #+0]
+   \   00000060   04E0               B        ??I2C0_Isr_5
+     57                        break ; 
+     58                case 0xA8: 
+     59                case 0xB8:
+     60                        I2C0DAT = SlaveSnd;
+   \                     ??I2C0_Isr_3:
+   \   00000062   ....               LDR      R0,??DataTable1_4  ;; 0xe001c008
+   \   00000064   ....               LDR      R1,??DataTable1_7
+   \   00000066   0978               LDRB     R1,[R1, #+0]
+   \   00000068   0160               STR      R1,[R0, #+0]
+   \   0000006A   FFE7               B        ??I2C0_Isr_5
+     61                        break ; 
+     62                default: 
+     63                        break ;
+     64              } 
+     65              VICVectAddr = 0;
+   \                     ??I2C0_Isr_4:
+   \                     ??I2C0_Isr_5:
+   \   0000006C   ....               LDR      R0,??DataTable1_8  ;; 0xfffff030
+   \   0000006E   0021               MOVS     R1,#+0
+   \   00000070   0160               STR      R1,[R0, #+0]
+     66          }
+   \   00000072   08BC               POP      {R3}
+   \   00000074   1847               BX       R3               ;; return
+   \   00000076                      REQUIRE VICVectAddr
+   \   00000076                      REQUIRE _A_IO1SET
+   \   00000076                      REQUIRE _A_IO1CLR
+   \   00000076                      REQUIRE _A_I2C0CONSET
+   \   00000076                      REQUIRE _A_I2C0STAT
+   \   00000076                      REQUIRE _A_I2C0DAT
+   \   00000076                      REQUIRE _A_I2C0CONCLR
+     67          
+
+   \                                 In section .text, align 2, keep-with-next
+     68          void main()
+     69          {
+     70            PINSEL1 |= 0x01000000; 
+   \                     main:
+   \   00000000   ....               LDR      R0,??DataTable1_9  ;; 0xe002c004
+   \   00000002   0068               LDR      R0,[R0, #+0]
+   \   00000004   8021               MOVS     R1,#+128
+   \   00000006   4904               LSLS     R1,R1,#+17       ;; #+16777216
+   \   00000008   0143               ORRS     R1,R1,R0
+   \   0000000A   ....               LDR      R0,??DataTable1_9  ;; 0xe002c004
+   \   0000000C   0160               STR      R1,[R0, #+0]
+     71            IO1DIR = 0x00FF0000;
+   \   0000000E   ....               LDR      R0,??DataTable1_10  ;; 0xe0028018
+   \   00000010   FF21               MOVS     R1,#+255
+   \   00000012   0904               LSLS     R1,R1,#+16       ;; #+16711680
+   \   00000014   0160               STR      R1,[R0, #+0]
+     72            PINSEL0 |= 0x50;
+   \   00000016   ....               LDR      R0,??DataTable1_11  ;; 0xe002c000
+   \   00000018   0068               LDR      R0,[R0, #+0]
+   \   0000001A   5021               MOVS     R1,#+80
+   \   0000001C   0143               ORRS     R1,R1,R0
+   \   0000001E   ....               LDR      R0,??DataTable1_11  ;; 0xe002c000
+   \   00000020   0160               STR      R1,[R0, #+0]
+     73            I2C0ADR = 0x20;
+   \   00000022   ....               LDR      R0,??DataTable1_12  ;; 0xe001c00c
+   \   00000024   2021               MOVS     R1,#+32
+   \   00000026   0160               STR      R1,[R0, #+0]
+     74            I2C0CONSET = 0X44;
+   \   00000028   ....               LDR      R0,??DataTable1_2  ;; 0xe001c000
+   \   0000002A   4421               MOVS     R1,#+68
+   \   0000002C   0160               STR      R1,[R0, #+0]
+     75            
+     76            VICVectAddr0 = (unsigned int)I2C0_Isr;
+   \   0000002E   ....               LDR      R0,??DataTable1_13  ;; 0xfffff100
+   \   00000030   ....               LDR      R1,??DataTable1_14
+   \   00000032   0160               STR      R1,[R0, #+0]
+     77            VICVectCntl0 = 0x29;
+   \   00000034   ....               LDR      R0,??DataTable1_15  ;; 0xfffff200
+   \   00000036   2921               MOVS     R1,#+41
+   \   00000038   0160               STR      R1,[R0, #+0]
+     78            VICIntEnable |= 0x200;
+   \   0000003A   ....               LDR      R0,??DataTable1_16  ;; 0xfffff010
+   \   0000003C   0068               LDR      R0,[R0, #+0]
+   \   0000003E   8021               MOVS     R1,#+128
+   \   00000040   8900               LSLS     R1,R1,#+2        ;; #+512
+   \   00000042   0143               ORRS     R1,R1,R0
+   \   00000044   ....               LDR      R0,??DataTable1_16  ;; 0xfffff010
+   \   00000046   0160               STR      R1,[R0, #+0]
+     79          }
+   \   00000048   7047               BX       LR               ;; return
+   \   0000004A                      REQUIRE _A_VICIntEnable
+   \   0000004A                      REQUIRE VICVectAddr0
+   \   0000004A                      REQUIRE _A_VICVectCntl0
+   \   0000004A                      REQUIRE _A_PINSEL0
+   \   0000004A                      REQUIRE _A_PINSEL1
+   \   0000004A                      REQUIRE _A_IO1DIR
+   \   0000004A                      REQUIRE _A_I2C0CONSET
+   \   0000004A                      REQUIRE _A_I2C0ADR
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1:
+   \   00000000   04C001E0           DC32     0xe001c004
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_1:
+   \   00000000   18C001E0           DC32     0xe001c018
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_2:
+   \   00000000   00C001E0           DC32     0xe001c000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_3:
+   \   00000000   ........           DC32     SlaveRcv
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_4:
+   \   00000000   08C001E0           DC32     0xe001c008
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_5:
+   \   00000000   1C8002E0           DC32     0xe002801c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_6:
+   \   00000000   148002E0           DC32     0xe0028014
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_7:
+   \   00000000   ........           DC32     SlaveSnd
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_8:
+   \   00000000   30F0FFFF           DC32     0xfffff030
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_9:
+   \   00000000   04C002E0           DC32     0xe002c004
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_10:
+   \   00000000   188002E0           DC32     0xe0028018
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_11:
+   \   00000000   00C002E0           DC32     0xe002c000
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_12:
+   \   00000000   0CC001E0           DC32     0xe001c00c
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_13:
+   \   00000000   00F1FFFF           DC32     0xfffff100
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_14:
+   \   00000000   ........           DC32     I2C0_Isr
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_15:
+   \   00000000   00F2FFFF           DC32     0xfffff200
+
+   \                                 In section .text, align 4, keep-with-next
+   \                     ??DataTable1_16:
+   \   00000000   10F0FFFF           DC32     0xfffff010
+
+   Maximum stack usage in bytes:
+
+     Function    .cstack
+     --------    -------
+     I2C0_Isr         4
+     fiq_handler      0
+     irq_handler     24
+     main             0
+
+
+   Section sizes:
+
+     Function/Label  Bytes
+     --------------  -----
+     _A_VICIntEnable    4
+     VICVectAddr        4
+     VICVectAddr0       4
+     _A_VICVectCntl0    4
+     _A_PINSEL0         4
+     _A_PINSEL1         4
+     _A_IO1SET          4
+     _A_IO1DIR          4
+     _A_IO1CLR          4
+     _A_I2C0CONSET      4
+     _A_I2C0STAT        4
+     _A_I2C0DAT         4
+     _A_I2C0ADR         4
+     _A_I2C0CONCLR      4
+     irq_handler       48
+     fiq_handler        4
+     SlaveRcv           1
+     SlaveSnd           1
+     I2C0_Isr         118
+     main              74
+     ??DataTable1       4
+     ??DataTable1_1     4
+     ??DataTable1_2     4
+     ??DataTable1_3     4
+     ??DataTable1_4     4
+     ??DataTable1_5     4
+     ??DataTable1_6     4
+     ??DataTable1_7     4
+     ??DataTable1_8     4
+     ??DataTable1_9     4
+     ??DataTable1_10    4
+     ??DataTable1_11    4
+     ??DataTable1_12    4
+     ??DataTable1_13    4
+     ??DataTable1_14    4
+     ??DataTable1_15    4
+     ??DataTable1_16    4
+
+ 
+   1 byte  in section .bss
+  57 bytes in section .data
+ 312 bytes in section .text
+ 
+ 312 bytes of CODE memory
+   2 bytes of DATA memory (+ 56 bytes shared)
+
+Errors: none
+Warnings: none

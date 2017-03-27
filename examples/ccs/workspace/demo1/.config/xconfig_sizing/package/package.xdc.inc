@@ -1,0 +1,14 @@
+package.xdc
+package.xs
+package/xconfig_sizing.sch
+package/.vers_g180
+package/.vers_r170
+package/.vers_b150
+package/.vers_c150
+package/.xdc-v48
+package/xconfig_sizing.java
+package/xconfig_sizing.class
+package/package_xconfig_sizing.c
+package/package.defs.h
+package/package.doc.xml
+package/xconfig_sizing.ccs

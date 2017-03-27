@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="configPkg" version="" producerId="undefined">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/cfg/mutex_pe9.c"/>
+    </sources>
+    <configurations>
+        <srcFile name="C:/Documents and Settings/Administrator/My Documents/workspace/demo2/mutex.cfg"/>
+    </configurations>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/cfg/mutex_pe9.mak" src="package.bld"/>
+        <srcFile name="package/cfg/mutex_pe9.oe9.dep" src="package/cfg/mutex_pe9.c"/>
+        <srcFile name="package/cfg/mutex_pe9.dep" src="package/cfg/mutex_pe9.cfg"/>
+        <srcFile name="package/rel/configPkg.tar.dep" src="package/rel/configPkg.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="ti.targets.arm.elf.Arm9"
+            version="ti.targets.arm.elf.Arm9{1,0,4.6,3"
+            platform="ti.platforms.sim470xx"
+            isa="v5T"
+            suffix="e9"
+            rootDir="C:/PROGRA~1/TEXASI~1/ccsv4/tools/compiler/tms470"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    </libraries>
+    <executables>
+    <executable name="mutex"
+        pname="mutex.pe9"
+        target="ti.targets.arm.elf.Arm9"
+        platform="xdc.platform.generic"
+        profile="whole_program"
+        xCfgScript="package/cfg/mutex_pe9.cfg"
+        xCfgPrefix="package/cfg/mutex_pe9"
+        cfgScript="C:/Documents and Settings/Administrator/My Documents/workspace/demo2/mutex.cfg"
+        cfgArgs="null"
+        />
+    </executables>
+    <tests>
+    <test exeName="mutex.pe9"
+        args=""
+        groupName="mutex.pe9"
+        refOutput="undefined"
+        refExitCode="0"
+        execArgs=""
+        />
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="configPkg"
+        pname="configPkg.tar"
+        label="default"
+    >
+        <file name="package/build.cfg"/>
+        <file name="package/package.ext.xml"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="package/package.bld.xml"/>
+        <file name="package/package.rel.dot"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>
