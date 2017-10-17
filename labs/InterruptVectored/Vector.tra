@@ -1,0 +1,19 @@
+*** Creating Trace Output File 'Vector.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+"startup.o" "main.o" --device DARMP --ro-base 0x00000000 --entry Reset_Handler --rw-base 0x40000000 --first Reset_Handler --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Vector.map" -o "Vector.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Vector.axf'
+### ADS-LD Command File: 'Vector.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Vector.lnp', Handle=0x00000564
+### Writing '.lnp' file
+### ADS-LD Command file 'Vector.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

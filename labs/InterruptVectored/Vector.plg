@@ -1,0 +1,15 @@
+<html>
+<body>
+<pre>
+<h1>µVision3 Build Log</h1>
+<h2>Project:</h2>
+C:\work\courses\RT and Embedded\bina\code\InterruptVectored\Vector.uv2
+Project File Date:  07/18/2007
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling main.cpp...
+linking...
+Program Size: Code=1752 RO-data=60 RW-data=8 ZI-data=1320  
+"Vector.axf" - 0 Error(s), 0 Warning(s).

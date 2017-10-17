@@ -1,0 +1,4 @@
+Dependencies for Project 'Vector', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x43D4AF7E)(--device DARMP -g --apcs=interwork -I "C:\Keilc\ARM\INC\Philips" --list "Startup.lst" --xref -o "Startup.o")
+F (.\main.cpp)(0x469E1BD2)(-c --device DARMP -g -O0 --apcs=interwork -I "C:\Keilc\ARM\INC\Philips" -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (C:\Keilc\ARM\INC\Philips\LPC21xx.H)(0x46480E8C)
